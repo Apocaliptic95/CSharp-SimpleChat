@@ -1,0 +1,32 @@
+﻿<Window x:Class="ChatClientWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="390.299" Width="717.537">
+    <Grid x:Name="isDef" Margin="0,0,-8,-21">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="16*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="615*"/>
+            <ColumnDefinition Width="100*"/>
+        </Grid.ColumnDefinitions>
+        <RichTextBox x:Name="RTextBoxChat" HorizontalAlignment="Left" Height="182" Margin="8,14,0,0" VerticalAlignment="Top" Width="349" Grid.Column="1" Grid.Row="1" IsReadOnly="True" Block.LineHeight="6" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" >
+            <FlowDocument/>
+        </RichTextBox>
+        <Button x:Name="btnConnect" Content="Connect" HorizontalAlignment="Left" Margin="4,26,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="3.03,0.834" Grid.Column="2" Height="20" Click="btnConnect_Click"/>
+        <TextBox x:Name="textBoxIP" HorizontalAlignment="Left" Height="23" Margin="66,22,0,0" TextWrapping="Wrap" Text="188.125.148.74" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label Content="Host" Grid.Column="1" HorizontalAlignment="Left" Margin="31,19,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.665,0.431" Height="26" Width="35"/>
+        <Label Content="Port" Grid.Column="1" HorizontalAlignment="Left" Margin="199,19,0,0" VerticalAlignment="Top" Height="26" Width="32"/>
+        <TextBox x:Name="textBoxPort" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="231,23,0,0" TextWrapping="Wrap" Text="666" VerticalAlignment="Top" Width="72" RenderTransformOrigin="0.52,0.465"/>
+        <TextBox x:Name="textBoxNick" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="357,23,0,0" TextWrapping="Wrap" Text="Nick" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nick" Grid.Column="1" HorizontalAlignment="Left" Margin="319,19,0,0" VerticalAlignment="Top" Height="26" Width="38"/>
+        <TextBox x:Name="textBoxMessage" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="10,235,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="347"/>
+        <Button x:Name="btnSend" Content="Send" Grid.Column="1" HorizontalAlignment="Left" Margin="395,238,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="btnSend_Click" IsEnabled="False" IsDefault="True" Height="20"/>
+        <Label Content="Online Users:" Grid.Column="1" HorizontalAlignment="Left" Margin="474,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="79"/>
+        <ListBox x:Name="listBoxOnlineUsers" Grid.Column="1" HorizontalAlignment="Left" Height="165" Margin="463,31,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
+        <CheckBox x:Name="checkBoxSound" Content="Play Sound?" Grid.Column="1" HorizontalAlignment="Left" Margin="610,243,0,0" Grid.Row="1" VerticalAlignment="Top" Grid.ColumnSpan="2" IsChecked="True"/>
+
+    </Grid>
+</Window>

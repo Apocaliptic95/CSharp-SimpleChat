@@ -1,0 +1,13 @@
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\bin\Debug\ChatClient.exe.config
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\bin\Debug\ChatClient.exe
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\bin\Debug\ChatClient.pdb
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\ChatClient.csprojResolveAssemblyReference.cache
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\Network.Chat.resources
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\ChatClient.Properties.Resources.resources
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\ChatClient.csproj.GenerateResource.Cache
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\ChatClient.exe
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\ChatClient.pdb
+C:\Users\Apocaliptic!\Source\Repos\chat2\Network\obj\Debug\Network.LoginDialog.resources
+C:\Users\Apocaliptic!\Documents\CSharp-SimpleChat\ChatClientForms\bin\Debug\ChatClient.exe.config
+C:\Users\Apocaliptic!\Documents\CSharp-SimpleChat\ChatClientForms\obj\Debug\ChatClient.exe
+C:\Users\Apocaliptic!\Documents\CSharp-SimpleChat\ChatClientForms\obj\Debug\ChatClient.pdb
